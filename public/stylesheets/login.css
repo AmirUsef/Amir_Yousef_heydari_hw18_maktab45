@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/farsi/BYekan.eot?#') format('eot'), /* IE6–8 */
+    url('../fonts/farsi/BYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/farsi/BYekan.ttf') format('truetype');
+    /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+html,
+body {
+    background-image: url('../images/bg-registration-form-1.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#form {
+    font-family: BYekan;
+    font-size: large;
+    background: rgba(0, 0, 0, 0.7);
+    height: 45%;
+    width: 35%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+}
+
+.input {
+    background-color: white;
+    width: 90%;
+    padding: 6px 5px;
+    margin: 8px 0;
+    border-radius: 4px 0px 0px 4px;
+    border: solid;
+    font-family: BYekan;
+    font-size: large;
+    text-align: right;
+}
+
+.icon {
+    height: 39.2px;
+    width: 10%;
+    background-color: #6c757d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 4px 4px 0px;
+}
+
+i {
+    font-size: 39px;
+    color: white;
+}
+
+#user,
+#pass {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 45px;
+    align-self: center;
+}
+
+#login {
+    width: 80%;
+    background-color: #28a745;
+    color: white;
+    padding: 6px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-family: BYekan;
+    font-size: large;
+    align-self: center;
+}
+
+label {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: small;
+    background-color: white;
+}
+
+#error1,
+#error2 {
+    font-size: small;
+    color: red;
+    position: absolute;
+    right: 15px;
+    bottom: -30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header,
+#footer {
+    color: white;
+    margin: 0px 0px;
+}

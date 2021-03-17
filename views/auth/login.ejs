@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="form">
+        <p id="header">ورود به پنل کاربری</p>
+        <div id="user">
+            <input type="text" class="input" id="input1" name="username" placeholder="نام کاربری">
+            <div class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+            <p id="error1"> </p>
+        </div>
+        <div id="pass">
+            <input type="password" class="input" id="input2" name="password" placeholder="رمز عبور">
+            <div class="icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+            <p id="error2"> </p>
+        </div>
+        <input type="submit" id="login" value="ورود">
+        <p id="footer">حساب کاربری ندارید؟ <a href="registerpage">ثبت نام</a></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/javascripts/login.js"></script>
+</body>
+
+</html>
